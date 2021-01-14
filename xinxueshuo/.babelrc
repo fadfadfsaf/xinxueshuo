@@ -1,0 +1,8 @@
+{
+    "presets":[
+    "@babel/preset-env"
+    ],
+    "plugins": [
+    ]//插件
+    
+}
