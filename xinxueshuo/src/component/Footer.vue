@@ -20,8 +20,8 @@ export default {
 </script>
 <style scoped>
 #footer {
-  height: 50px;
+  background: #215089;
+  height: 200px;
   padding: 10px 0px;
-  line-height: 50px;
 }
 </style>

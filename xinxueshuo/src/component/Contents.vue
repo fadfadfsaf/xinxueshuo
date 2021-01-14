@@ -1,7 +1,5 @@
 <template>
-  <div id="contents">
-   空
-  </div>
+  <div id="contents">空</div>
 </template>
 <script>
 export default {
@@ -14,7 +12,6 @@ export default {
 <style scoped>
 #contents {
   height: 1000px;
-  background: rgb(63, 113, 221);
+  background: #f00;
 }
-
 </style>

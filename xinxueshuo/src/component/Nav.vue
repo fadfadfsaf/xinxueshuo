@@ -1,11 +1,10 @@
 <template>
-  <el-row id="nav" v-bind="123">
+  <el-row id="nav">
     <el-col :span="20" :offset="2">
       <el-menu
         mode="horizontal"
         background-color="#215089"
         text-color="#fff"
-        asdas 
         active-text-color="#fff"
       >
         <el-menu-item index="1">首 页</el-menu-item>
@@ -42,6 +41,7 @@ export default {
   name: "Nav",
   data() {
     return {
+      state: 1,
     };
   },
   mounted() {
@@ -53,16 +53,12 @@ export default {
       // 滚动时，距离顶部的距离
       var scrollTop =
         document.documentElement.scrollTop || document.body.scrollTop;
-      var viewHeight = window.screen.height;
-      // 当滚动距离大于屏幕十分之一
-      //   console.log(scrollTop);
-      console.log(this.id);
-      if (scrollTop >= 200) {
-        //   alert("大于200了")
+      var nav = document.getElementById("nav")
+      if (scrollTop >= 60) {
+        nav.style="top:0"
       } else {
-        //   alert("小于200了")
+         nav.style="top:50"
       }
-      console.log(viewHeight);
     },
   },
 };
@@ -74,5 +70,10 @@ export default {
   color: #ffffff;
   position: fixed;
   z-index: 999;
+    -webkit-transition: all .5s;
+    -moz-transition:  all .5s;
+    -ms-transition: all .5s;
+    -o-transition:  all .5s;
+    transition:  all .5s;
 }
 </style>
