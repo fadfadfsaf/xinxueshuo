@@ -25,9 +25,11 @@
       </el-col>
       <el-col :span="2" :offset="2">
         <h4>微信公众号</h4>
+        <img src="img/wechat_QR.png" alt="">
       </el-col>
       <el-col :span="2" :offset="1">
         <h4>教育研究院</h4>
+        <img src="img/shop.jpg" alt="">
       </el-col>
     </el-row>
   </div>
@@ -47,7 +49,7 @@ export default {
   color: #fff;
   padding: 30px 0px;
 }
-.lianx h4{
+h4{
   padding-bottom: 20px;
 }
 .lianx p{

@@ -1,12 +1,13 @@
 import Vue from 'vue';
-import { Button, Row, Col, Menu, MenuItem, Submenu } from 'element-ui';
+import { Button, Row, Col, Menu, MenuItem, Submenu,Carousel,CarouselItem } from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import 'element-ui/lib/theme-chalk/display.css';
 // import App from './App'
-import Headers from './component/Header'
-import Navs from './component/Nav'
-import Contents from './component/Contents'
-import Footers from './component/Footer'
+import Headers from './component/Header';
+import Navs from './component/Nav';
+import Contents from './component/Contents';
+import Banner from './index/banner';
+import Footers from './component/Footer';
 // Vue.use(ElementUI);
 Vue.use(Button);
 Vue.use(Row);
@@ -14,11 +15,11 @@ Vue.use(Col);
 Vue.use(Menu);
 Vue.use(MenuItem);
 Vue.use(Submenu);
+Vue.use(Carousel);
+Vue.use(CarouselItem);
 new Vue({
     el: "#ex",
-    data: {
-        names: "asd"
-    },
-    components: { Headers, Navs,Contents,Footers },
-       template: '<div><Headers /><Navs /><Contents /><Footers /></div>'
+    data: {},
+    components: { Headers, Navs,Contents,Banner,Footers },
+       template: '<div><Headers /><Navs /><Banner /><Contents /><Footers /></div>'
 })
