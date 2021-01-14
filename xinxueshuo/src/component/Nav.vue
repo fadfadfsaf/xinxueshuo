@@ -53,11 +53,11 @@ export default {
       // 滚动时，距离顶部的距离
       var scrollTop =
         document.documentElement.scrollTop || document.body.scrollTop;
-      var nav = document.getElementById("nav")
+      var nav = document.getElementById("nav");
       if (scrollTop >= 60) {
-        nav.style="top:0"
+        nav.style = "top:0";
       } else {
-         nav.style="top:50"
+        nav.style = "top:50";
       }
     },
   },
@@ -66,14 +66,16 @@ export default {
 <style scoped>
 #nav {
   width: 100%;
+  height: 50px;
+  overflow: hidden;
   background: #215089;
   color: #ffffff;
   position: fixed;
   z-index: 999;
-    -webkit-transition: all .5s;
-    -moz-transition:  all .5s;
-    -ms-transition: all .5s;
-    -o-transition:  all .5s;
-    transition:  all .5s;
+  -webkit-transition: all 1.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 </style>
