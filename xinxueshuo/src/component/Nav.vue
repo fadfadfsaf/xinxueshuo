@@ -1,10 +1,11 @@
 <template>
-  <el-row id="nav">
+  <el-row id="nav" v-bind="123">
     <el-col :span="20" :offset="2">
       <el-menu
         mode="horizontal"
         background-color="#215089"
         text-color="#fff"
+        asdas 
         active-text-color="#fff"
       >
         <el-menu-item index="1">首 页</el-menu-item>
