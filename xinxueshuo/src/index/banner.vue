@@ -1,14 +1,14 @@
 <template>
   <el-row id="banner" :gutter="20">
     <el-col :span="20" :offset="2" :gutter="20" class="ban">
-      <el-col :span="18">
+      <el-col :span="17">
         <el-carousel height="500px">
           <el-carousel-item v-for="item in 4" :key="item">
             <h3 class="small">{{ item }}</h3>
           </el-carousel-item>
         </el-carousel>
       </el-col>
-      <el-col :span="5">
+      <el-col :span="7">
         <img src="img/1592992689120.jpg" alt="">
           <img src="img/1591580942683.jpg" alt="">
       </el-col>
@@ -30,9 +30,11 @@ export default {
 }
 img{
   width: 100%;
+  margin-bottom: 20px;
 }
 .ban{
-  box-shadow: 0px 0px 0px #215089;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #215089;
 }
 .block {
   width: 60%;
