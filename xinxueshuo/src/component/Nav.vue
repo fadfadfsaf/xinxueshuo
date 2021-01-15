@@ -66,16 +66,9 @@ export default {
 <style scoped>
 #nav {
   width: 100%;
-  height: 50px;
-  overflow: hidden;
   background: #215089;
   color: #ffffff;
   position: fixed;
   z-index: 999;
-  -webkit-transition: all 1.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
 }
 </style>
