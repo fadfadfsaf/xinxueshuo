@@ -6,6 +6,7 @@
         background-color="#215089"
         text-color="#fff"
         active-text-color="#fff"
+        style="border:none"
       >
         <el-menu-item index="1">首 页</el-menu-item>
         <el-submenu index="2">

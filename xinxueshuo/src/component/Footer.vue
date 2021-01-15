@@ -11,7 +11,7 @@
       <el-col :span="6" :offset="1" class="links">
         <h4>链接 Links：</h4>
         <div>
-          <img src="img/database.png" alt="" />
+          <img src="img/database.png" alt="" style="width: 50%" />
           <img src="img/class.png" alt="" />
         </div>
         <div>
@@ -25,11 +25,20 @@
       </el-col>
       <el-col :span="2" :offset="2" class="shop">
         <h4>微信公众号</h4>
-        <img src="img/wechat_QR.png" alt="">
+        <img src="img/wechat_QR.png" alt="" />
       </el-col>
       <el-col :span="2" :offset="1" class="shop">
         <h4>教育研究院</h4>
-        <img src="img/shop.jpg" alt="">
+        <img src="img/shop.jpg" alt="" />
+      </el-col>
+    </el-row>
+    <el-row id="footer_bottom">
+      <el-col :span="20" :offset="2" class="footer-">
+        <p>新学说文化传媒有限公司 NEWSCHOOL INSIGHT MEDIA</p>
+        <p>
+          Copyright © 2018 xinxueshuo.cn All Rights Reserved 京ICP备
+          16031987号-1
+        </p>
       </el-col>
     </el-row>
   </div>
@@ -45,21 +54,29 @@ export default {
 <style scoped>
 #footer {
   background: #215089;
-  height: 200px;
+  height: 300px;
   color: #fff;
   padding: 30px 0px 0px;
 }
-.shop img{
+.shop img {
   width: 100%;
 }
-h4{
+h4 {
   padding-bottom: 20px;
 }
-.lianx p{
+.lianx p {
   padding-bottom: 10px;
 }
-.links img{
-  padding-top: 20px;
-  padding-right: 5px;
+.links img {
+  padding-bottom: 10px;
+  padding-right: 3px;
+}
+#footer_bottom {
+  border-top: 1px solid #fff;
+  text-align: center;
+  margin: 20px;
+}
+#footer_bottom P {
+  padding: 10px 0px;
 }
 </style>
