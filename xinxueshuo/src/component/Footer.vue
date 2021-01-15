@@ -23,11 +23,11 @@
           <img src="img/twitter.png" alt="" />
         </div>
       </el-col>
-      <el-col :span="2" :offset="2">
+      <el-col :span="2" :offset="2" class="shop">
         <h4>微信公众号</h4>
         <img src="img/wechat_QR.png" alt="">
       </el-col>
-      <el-col :span="2" :offset="1">
+      <el-col :span="2" :offset="1" class="shop">
         <h4>教育研究院</h4>
         <img src="img/shop.jpg" alt="">
       </el-col>
@@ -47,7 +47,10 @@ export default {
   background: #215089;
   height: 200px;
   color: #fff;
-  padding: 30px 0px;
+  padding: 30px 0px 0px;
+}
+.shop img{
+  width: 100%;
 }
 h4{
   padding-bottom: 20px;
