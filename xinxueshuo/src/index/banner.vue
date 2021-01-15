@@ -1,14 +1,17 @@
 <template>
-  <el-row id="banner">
-    <el-col :span="20" :offset="2">
-      <el-col :span="15">
-        <el-carousel height="450px">
+  <el-row id="banner" :gutter="20">
+    <el-col :span="20" :offset="2" :gutter="20" class="ban">
+      <el-col :span="18">
+        <el-carousel height="500px">
           <el-carousel-item v-for="item in 4" :key="item">
             <h3 class="small">{{ item }}</h3>
           </el-carousel-item>
         </el-carousel>
       </el-col>
-      <el-col :span="8">123</el-col>
+      <el-col :span="5">
+        <img src="img/1592992689120.jpg" alt="">
+          <img src="img/1591580942683.jpg" alt="">
+      </el-col>
     </el-col>
   </el-row>
 </template>
@@ -20,11 +23,16 @@ export default {
 <style scoped>
 #banner,
 #banner_img {
-  height: 500px;
+  height: 650px;
   margin: 100px 0;
   background: #fff;
-
   padding: 25px;
+}
+img{
+  width: 100%;
+}
+.ban{
+  box-shadow: 0px 0px 0px #215089;
 }
 .block {
   width: 60%;
@@ -36,7 +44,7 @@ export default {
   color: #475669;
   font-size: 14px;
   opacity: 0.75;
-  line-height: 450px;
+  line-height: 500px;
   margin: 0;
 }
 
