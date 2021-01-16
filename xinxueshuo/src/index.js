@@ -3,13 +3,7 @@ import { Button, Row, Col, Menu, MenuItem, Submenu, Carousel, CarouselItem } fro
 import 'element-ui/lib/theme-chalk/index.css';
 import 'element-ui/lib/theme-chalk/display.css';
 // import App from './App'
-import Headers from './component/Header';
-import Navs from './component/Nav';
-import Banner from './index/banner';
-import Banner_bottom from './index/banner_bottom';
-import Contents from './index/contents';
-import Footers from './component/Footer';
-// Vue.use(ElementUI);
+
 Vue.use(Button);
 Vue.use(Row);
 Vue.use(Col);
@@ -18,6 +12,13 @@ Vue.use(MenuItem);
 Vue.use(Submenu);
 Vue.use(Carousel);
 Vue.use(CarouselItem);
+import Headers from './component/Header';
+import Navs from './component/Nav';
+import Banner from './index/banner';
+import Banner_bottom from './index/banner_bottom';
+import Contents from './index/contents';
+import Footers from './component/Footer';
+// Vue.use(ElementUI);
 new Vue({
     el: "#ex",
     data: {},
