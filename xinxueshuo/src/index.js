@@ -6,6 +6,7 @@ import 'element-ui/lib/theme-chalk/display.css';
 import Headers from './component/Header';
 import Navs from './component/Nav';
 import Banner from './index/banner';
+import Banner_bottom from './index/banner_bottom';
 import Footers from './component/Footer';
 // Vue.use(ElementUI);
 Vue.use(Button);
@@ -19,6 +20,6 @@ Vue.use(CarouselItem);
 new Vue({
     el: "#ex",
     data: {},
-    components: { Headers, Navs,Banner,Footers },
-       template: '<div><Headers /><Navs /><Banner /><Footers /></div>'
+    components: { Headers, Navs,Banner,Banner_bottom,Footers },
+       template: '<div><Headers /><Navs /><Banner /><Banner_bottom /><Footers /></div>'
 })

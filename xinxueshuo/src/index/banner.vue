@@ -1,16 +1,15 @@
 <template>
+ <!-- banner -->
   <el-row id="banner" :gutter="20">
     <el-col :span="20" :offset="2" :gutter="20" class="ban">
-      <el-col :span="17">
+      <el-col :span="17">   <!-- 跑马灯 -->
         <el-carousel height="500px">
           <el-carousel-item v-for="item in imsges" :key="item">
-            <!-- <h3 class="small">{{ item }}</h3> -->
-            <!-- <div>{{ item }}</div> -->
             <img :src="''+item.src" />
           </el-carousel-item>
         </el-carousel>
       </el-col>
-      <el-col :span="7">
+      <el-col :span="7"> <!-- banner图 -->
         <img src="img/1592992689120.jpg" alt="" />
         <img src="img/1591580942683.jpg" alt="" />
       </el-col>
@@ -35,10 +34,10 @@ export default {
 <style scoped>
 #banner,
 #banner_img {
-  height: 650px;
-  margin: 100px 0;
+  height: auto;
+  margin: 100px 0 20px;
   background: #fff;
-  padding: 25px;
+  /* padding: 25px; */
 }
 img {
   width: 100%;
@@ -47,12 +46,6 @@ img {
 }
 .ban {
   padding: 20px;
-  box-shadow: 0px 0px 20px #215089;
-}
-.block {
-  width: 60%;
-  box-shadow: 0px 0px 10px #215089;
-  padding: 25px;
-  border: #000 1px solid;
+  box-shadow: 0px 0px 5px #e7e8e9;
 }
 </style>
