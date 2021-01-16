@@ -36,7 +36,7 @@ export default {
 #banner_bottom .aaa {
   margin: 20px 0;
   padding: 20px 0;
-  background: #eeeeee;
+  background: #f8f8f8;
   text-align: center;
   color: #666;
 }
