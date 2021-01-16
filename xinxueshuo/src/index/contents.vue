@@ -1,51 +1,67 @@
 <template>
- <!-- banner -->
-  <el-row id="banner" :gutter="20">
-    <el-col :span="20" :offset="2" :gutter="20" class="ban">
-      <el-col :span="17">   <!-- 跑马灯 -->
-        <el-carousel height="500px">
-          <el-carousel-item v-for="item in imsges" :key="item">
-            <img :src="''+item.src" />
-          </el-carousel-item>
-        </el-carousel>
+  <div id="contents">
+    <el-row class="Title">
+      <el-col :span="8" :offset="2">
+        <span class="rule"></span>
       </el-col>
-      <el-col :span="7"> <!-- banner图 -->
-        <img src="img/1592992689120.jpg" alt="" />
-        <img src="img/1591580942683.jpg" alt="" />
+      <el-col :span="4" class="text">
+        <div>
+          <p>行业动态</p>
+          <p>Industry News</p>
+        </div>
       </el-col>
-    </el-col>
-  </el-row>
+      <el-col :span="8">
+        <span class="rule"></span>
+      </el-col>
+    </el-row>
+    <el-row :gutter="20" class="contents">
+      <el-col :span="10" :offset="2">
+        <el-col :span="12">
+          <img src="img/1608781879096.png" alt="" />
+        </el-col>
+        <el-col :span="12">
+          <a href=""> 重磅！北京推动设立“公共户”，规范二手学区房交易？ </a>
+          <p>全面推进单校划片和多校划片相结合，就近入学更加公平完善。</p>
+        </el-col>
+      </el-col>
+      <el-col :span="10">
+        <el-col :span="12"> <img src="img/1608781879096.png" alt="" /></el-col>
+        <el-col :span="12">
+          <a href=""> 重磅！北京推动设立“公共户”，规范二手学区房交易？ </a>
+          <p>全面推进单校划片和多校划片相结合，就近入学更加公平完善。</p>
+          </el-col
+        ></el-col
+      >
+    </el-row>
+  </div>
 </template>
 <script>
 export default {
-  name: "banner",
+  name: "contents",
   data() {
-    return {
-      imsges: [
-        { src: "img/1568861703402.jpg" },
-        { src: "img/1591580942683.jpg" },
-        { src: "img/1592992689120.jpg" },
-        { src: "img/1592992689120.jpg" },
-      ],
-    };
+    return {};
   },
 };
 </script>
 <style scoped>
-#banner,
-#banner_img {
-  height: auto;
-  margin: 100px 0 20px;
-  background: #fff;
-  /* padding: 25px; */
-}
 img {
   width: 100%;
-  height: 100%;
-  margin-bottom: 20px;
 }
-.ban {
-  padding: 20px;
-  box-shadow: 0px 0px 5px #e7e8e9;
+.Title {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  text-align: center;
+}
+.rule {
+  align-self: center;
+  display: inline-block;
+  height: 1px;
+  width: 100%;
+  background: #000;
+}
+.text p {
+  width: 100%;
+  padding-bottom: 5px;
 }
 </style>
