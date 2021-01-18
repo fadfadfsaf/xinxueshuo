@@ -56,7 +56,8 @@ export default {
         document.documentElement.scrollTop || document.body.scrollTop;
       var nav = document.getElementById("nav");
       if (scrollTop >= 60) {
-        nav.style = "top:0";
+        // nav.style = "top:0"; 
+        nav.style = " position: fixed;top:0";
       } else {
         nav.style = "top:50";
       }
@@ -69,7 +70,8 @@ export default {
   width: 100%;
   background: #215089;
   color: #ffffff;
-  position: fixed;
+
+  position: absolute;
   z-index: 999;
 }
 </style>
