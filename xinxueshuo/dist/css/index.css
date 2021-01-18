@@ -82,7 +82,7 @@
   /* 业务版块 ------------------------------*/
 
   #business {
-      margin-bottom: 50px;
+      margin-bottom: 200px;
   }
 
   #business .bus_h2 {
@@ -122,8 +122,58 @@
       line-height: 30px;
   }
 
-  #business img {
-      width     : 45%;
-      float     : left;
-      transition: all .3;
+  /* 图片切换效果的父级盒子 */
+  #business .imgs {
+      position: relative;
+      height  : 500px;
+      width   : 500px;
+  }
+
+  /* 图片切换效果的图片设置 */
+  #business .imgs>img {
+      float             : left;
+      width             : 220px;
+      height            : 220px;
+      position          : absolute;
+  }
+
+  .imgs .img1 {
+      top : 0px;
+      left: 0px;
+  }
+
+  .imgs .img2 {
+      top : 0px;
+      left: 220px;
+  }
+
+  .imgs .img3 {
+      top : 220px;
+      left: 0px;
+  }
+
+  .imgs .img4 {
+      top : 220px;
+      left: 220px;
+  }
+
+  .imgs .img1:hover {
+      top : -10px;
+      left: -10px;
+  }
+
+  .imgs .img2:hover {
+      top : -10px;
+      left: 230px;
+  }
+
+  .imgs .img3:hover {
+      top : 230px;
+      left: -10px;
+  }
+
+  .imgs .img4:hover {
+      top  : 230px;
+      left : 230px;
+      width: 500px;
   }
