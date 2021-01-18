@@ -1,0 +1,129 @@
+  * {
+      padding        : 0px;
+      margin         : 0px;
+      list-style-type: none;
+  }
+
+  img {
+      width: 100%;
+  }
+
+  a {
+      text-decoration: none;
+      font-weight    : bold;
+      font-size      : 18px;
+      color          : #2c6daf;
+  }
+
+  a:hover {
+      color: #23527c;
+  }
+
+  /* banner------------------------------- */
+  #banner,
+  #banner_img {
+      height    : auto;
+      margin    : 100px 0 20px;
+      background: #fff;
+      /* padding: 25px; */
+  }
+
+  #banner img {
+      width        : 100%;
+      height       : 100%;
+      margin-bottom: 20px;
+  }
+
+  #banner .ban {
+      padding   : 20px;
+      box-shadow: 0px 0px 5px #e7e8e9;
+  }
+
+  #banner_bottom .aaa {
+      margin    : 20px 0;
+      padding   : 20px 0;
+      background: #f8f8f8;
+      text-align: center;
+      color     : #666;
+  }
+
+  #banner_bottom .aaa:hover {
+      color     : #333;
+      background: #fff;
+      box-shadow: 0px 0px 10px #dfdfdf;
+  }
+
+  #banner_bottom .aaa>img {
+      width : 50px;
+      height: 50px;
+  }
+
+  /* title ---------------------------------------- */
+  .Title {
+      width     : 100%;
+      height    : auto;
+      margin    : 20px 0;
+      text-align: center;
+  }
+
+  .Title .rule {
+      align-self: center;
+      display   : inline-block;
+      height    : 1px;
+      width     : 100%;
+      background: #000;
+  }
+
+  .Title .text_p {
+      font-size     : 20px;
+      padding-bottom: 5px;
+  }
+
+  /* 业务版块 ------------------------------*/
+
+  #business {
+      margin-bottom: 50px;
+  }
+
+  #business .bus_h2 {
+      position: relative;
+  }
+
+  #business .bus_h2::before {
+      display         : inline-block;
+      content         : "";
+      position        : absolute;
+      bottom          : -15px;
+      left            : 0;
+      width           : 100px;
+      height          : 8px;
+      background-color: #20528f;
+  }
+
+  #business h1 {
+      position  : relative;
+      margin-top: 20px;
+  }
+
+  #business h1::before {
+      display         : inline-block;
+      content         : "";
+      position        : absolute;
+      bottom          : -15px;
+      left            : 0;
+      width           : 100%;
+      height          : 1px;
+      background-color: #000;
+  }
+
+  #business .title_bottom_p {
+      margin-top : 30px;
+      color      : #838485;
+      line-height: 30px;
+  }
+
+  #business img {
+      width     : 45%;
+      float     : left;
+      transition: all .3;
+  }

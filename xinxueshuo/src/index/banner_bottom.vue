@@ -33,20 +33,4 @@ export default {
 };
 </script>
 <style scoped>
-#banner_bottom .aaa {
-  margin: 20px 0;
-  padding: 20px 0;
-  background: #f8f8f8;
-  text-align: center;
-  color: #666;
-}
-#banner_bottom .aaa:hover {
-  color: #333;
-  background: #fff;
-  box-shadow: 0px 0px 10px #dfdfdf;
-}
-#banner_bottom .aaa > img {
-  width: 50px;
-  height: 50px;
-}
 </style>

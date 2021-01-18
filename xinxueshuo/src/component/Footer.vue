@@ -8,13 +8,13 @@
         <p>手机：15010927730</p>
         <p>地址：北京市朝阳区曙光西里时间国际A座1501</p>
       </el-col>
-      <el-col :span="6" :offset="1" class="links">
+      <el-col :span="6" :offset="1">
         <h4>链接 Links：</h4>
-        <div>
-          <img src="img/database.png" alt="" style="width: 50%" />
+        <div class="links">
+          <img src="img/database.png" alt="" />
           <img src="img/class.png" alt="" />
         </div>
-        <div>
+        <div class="apps">
           <img src="img/souhu.png" alt="" />
           <img src="img/toutiao.png" alt="" />
           <img src="img/weibo.png" alt="" />
@@ -57,9 +57,11 @@ export default {
   height: 300px;
   color: #fff;
   padding: 30px 0px 0px;
+  margin-top: 20px;
 }
 .shop img {
   width: 100%;
+  height: 100%;
 }
 h4 {
   padding-bottom: 20px;
@@ -68,8 +70,13 @@ h4 {
   padding-bottom: 10px;
 }
 .links img {
+  width: 48%;
+  height: 48px;
   padding-bottom: 10px;
   padding-right: 3px;
+}
+.apps img {
+  width: 15%;
 }
 #footer_bottom {
   border-top: 1px solid #fff;
