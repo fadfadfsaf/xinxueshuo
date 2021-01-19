@@ -121,9 +121,8 @@
       color      : #838485;
       line-height: 30px;
   }
-
   /* 图片切换效果的父级盒子 */
-  #business .imgs {
+  .imgs {
       position: relative;
       height  : 500px;
       width   : 500px;
