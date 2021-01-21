@@ -5,6 +5,7 @@ module.exports = {
   entry: {
     app: './src/index.js',
     about:'./src/about.js',
+    news:'./src/news.js',
     event:'./src/event.js',
     miniMba:'./src/miniMba.js',
     consultOne:'./src/consultOne.js',
