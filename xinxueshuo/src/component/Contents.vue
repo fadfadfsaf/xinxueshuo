@@ -12,6 +12,6 @@ export default {
 <style scoped>
 #contents {
   height: 1000px;
-  background: #f00;
+  background: #0a9000;
 }
 </style>

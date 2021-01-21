@@ -1,7 +1,7 @@
 <template>
   <div id="header">
     <el-row class="header">
-      <el-col :span="4" :offset="2" class="imgs">
+      <el-col :span="4" :offset="2" class="aaa">
         <img src="img/logo.png" alt="" />
       </el-col>
       <el-col :span="4" :offset="14" class="text">
@@ -30,7 +30,7 @@ export default {
   padding: 10px 0px;
   line-height: 50px;
 }
-.imgs > img {
+.aaa > img {
   width: auto;
   height: 50px;
 }

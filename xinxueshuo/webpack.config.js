@@ -4,9 +4,11 @@ module.exports = {
   mode: 'production',
   entry: {
     app: './src/index.js',
+    // test: './src/test.js',
+    about:'./src/about.js',
   },
   output: {
-    filename: '[name].bundle.js',
+    filename: 'js/[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
   devServer: {
