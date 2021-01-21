@@ -3,7 +3,7 @@
 
 <head>
   <title>起步</title>
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/about.css">
 </head>
 <style>
 
@@ -11,6 +11,56 @@
 
 <body>
   <div id="ex">
+    <Headers></Headers>
+    <Navs></Navs>
+    <div id="about">
+      <el-row id="about_banner">
+        <el-col :span="24">
+          <el-col :span="20" :offset="2" class="about_banner_text">
+            <!-- <img src="img/about.jpg" alt="" /> -->
+            <h3>我们的使命和愿景</h3>
+            <h2>
+              服务国际学校成长，助力行业健康发展。成为中国国际学校行业第一服务平台
+            </h2>
+          </el-col>
+        </el-col>
+      </el-row>
+      <el-row id="about_info">
+        <el-col :span="16" :offset="4">
+          <h1>关于 新学说</h1>
+          <p>
+            北京新学说文化传媒有限公司是由国际学校行业专家共同打造的多边媒体平台，以新媒体为载体、以行业研究为核心、以行业服务为平台。自成立以来一直致力于中国国际学校行业研究，对于中国国际学校有着深刻的了解。到目前为止，新学说已在自有媒体上发表了近千篇行业原创文章，十多本深度行业报告，并为多家学校提供了详细的市场、运营、建设方案，受到业内人士和单位的高度认可。
+          </p>
+          <p>使命：让中国没有办不好的国际学校</p>
+          <p>愿景：中国国际学校行业第一服务平台</p>
+        </el-col>
+        <el-col :span="3" :offset="17">
+          <a href="#">联系我们</a>
+        </el-col>
+      </el-row>
+      <div>
+
+      </div>
+      <el-row id="about_cooperation">
+        <el-col :span="8" :offset="4">
+          <h1>合作伙伴</h1>
+        </el-col>
+        <el-col :span="8">
+          <P>
+            新学说自创办以来，为数百个家喻户晓的品牌提供了深度定制的推广策略，始终专注于高质量的内容传播和创新的宣传服务。
+          </P>
+
+        </el-col>
+      </el-row>
+      <el-row id="about_image">
+        <el-col :span="16" :offset="4">
+          <img src="img/100099-logo.jpg" alt="">
+          <img src="img/100043-logo.jpg" alt="">
+          <img src="img/100181-logo.jpg" alt="">
+          <img src="img/100742-logo.jpg" alt="">
+      </el-row>
+    </div>
+    <Footers></Footers>
   </div>
   <script src="./js/about.bundle.js"></script>
 </body>

@@ -24,7 +24,7 @@ module.exports = {
     open: true, //是否打开浏览器
     proxy: {
       "/api": {
-        target: "http://localhost:3000",
+        target: "http://localhost:8080",
         pathRewrite: { "^/api": "" }
       }
     }
