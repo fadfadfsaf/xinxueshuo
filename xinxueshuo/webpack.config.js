@@ -4,8 +4,12 @@ module.exports = {
   mode: 'production',
   entry: {
     app: './src/index.js',
-    // test: './src/test.js',
     about:'./src/about.js',
+    event:'./src/event.js',
+    miniMba:'./src/miniMba.js',
+    consultOne:'./src/consultOne.js',
+    vip:'./src/vip.js',
+    onlineClass:'./src/onlineClass.js',
   },
   output: {
     filename: 'js/[name].bundle.js',
