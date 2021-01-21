@@ -13,13 +13,12 @@ Vue.use(Submenu);
 Vue.use(Carousel);
 Vue.use(CarouselItem);
 import Headers from './component/Header';
-import Contents from './component/Contents';
+import Abouts from './About.vue';
 import Navs from './component/Nav';
 import Footers from './component/Footer';
-// Vue.use(ElementUI);
 new Vue({
     el: "#ex",
     data: {},
-    components: { Headers, Navs,Contents, Footers },
-    template: '<div><Headers /><Navs /><Contents /><Footers /></div>',
+    components: { Headers, Navs, Abouts, Footers },
+    template: '<div><Headers /><Navs /><Abouts /><Footers /></div>',
 })
