@@ -6,11 +6,72 @@
   <link rel="stylesheet" href="css/index.css">
 </head>
 <style>
+  .consultOne_bottom div {
+    margin-top: 20px;
+  }
 
+  .consultOne_border {
+    box-shadow: 0px 0px 10px #ebeef5;
+  }
+  img{
+    height: 100%;
+  }
+  p {
+    padding: 10px;
+  }
+
+  span {
+    color: #999;
+  }
 </style>
 
 <body>
   <div id="ex">
+    <Headers></Headers>
+    <Navs></Navs>
+    <div id="consultOne">
+      <img src="img/pcConsult.jpg" alt="" style="margin-top:50px;vertical-align: bottom;">
+      <el-row :gutter="20">
+        <el-col :span="20" :offset="2" class="consultOne_bottom">
+          <el-col :span="8">
+            <div class="consultOne_border">
+              <img src="img/1608690463729.png" alt="">
+              <p>一年开4校，诺德安达为什么如此“雄心勃勃”？</p>
+              <p><span>预计到2020年共将开设10所双语学校。</span></p>
+            </div>
+          </el-col>
+          <el-col :span="8">
+            <div class="consultOne_border">
+              <img src="img/1608690463729.png" alt="">
+              <p>一年开4校，诺德安达为什么如此“雄心勃勃”？</p>
+              <p><span>预计到2020年共将开设10所双语学校。</span></p>
+            </div>
+          </el-col>
+          <el-col :span="8">
+            <div class="consultOne_border">
+              <img src="img/1608690463729.png" alt="">
+              <p>一年开4校，诺德安达为什么如此“雄心勃勃”？</p>
+              <p><span>预计到2020年共将开设10所双语学校。</span></p>
+            </div>
+          </el-col>
+          <el-col :span="8">
+            <div class="consultOne_border">
+              <img src="img/1608690463729.png" alt="">
+              <p>一年开4校，诺德安达为什么如此“雄心勃勃”？</p>
+              <p><span>预计到2020年共将开设10所双语学校。</span></p>
+            </div>
+          </el-col>
+          <el-col :span="8">
+            <div class="consultOne_border">
+              <img src="img/1608690463729.png" alt="">
+              <p>一年开4校，诺德安达为什么如此“雄心勃勃”？</p>
+              <p><span>预计到2020年共将开设10所双语学校。</span></p>
+            </div>
+          </el-col>
+        </el-col>
+      </el-row>
+    </div>
+    <Footers></Footers>
   </div>
   <script src="./js/consultOne.bundle.js"></script>
 </body>

@@ -3,12 +3,12 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
 module.exports = {
   mode: 'production',
   entry: {
-    // app: './src/index.js',
+    app: './src/index.js',
     about:'./src/about.js',
     // news:'./src/news.js',
     // event:'./src/event.js',
     // miniMba:'./src/miniMba.js',
-    // consultOne:'./src/consultOne.js',
+    consultOne:'./src/consultOne.js',
     // vip:'./src/vip.js',
     // onlineClass:'./src/onlineClass.js',
   },
