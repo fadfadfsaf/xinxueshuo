@@ -29,7 +29,7 @@
           <el-menu-item index="5-4">国际学院内参</el-menu-item>
           <el-menu-item index="5-5">专家智库</el-menu-item>
         </el-submenu>
-        <el-menu-item index="6"><a href="consultOne.html">咨询服务</a></el-menu-item>
+        <el-menu-item index="6"><a href="consult.html">咨询服务</a></el-menu-item>
         <el-menu-item index="7"><a href="vip.html"> 会 员</a></el-menu-item>
         <el-menu-item index="8"><a href="about.html">国际学校四库全</a></el-menu-item>
         <el-menu-item index="9"><a href="onlineClass.html">在线课堂</a></el-menu-item>

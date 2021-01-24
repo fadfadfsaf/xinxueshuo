@@ -1,10 +1,9 @@
 import Vue from 'vue';
-import { Button, Row, Col, Menu, MenuItem, Submenu, Carousel, CarouselItem } from 'element-ui';
+import { Row, Col, Menu, MenuItem, Submenu, Carousel, CarouselItem } from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import 'element-ui/lib/theme-chalk/display.css';
 // import App from './App'
 
-Vue.use(Button);
 Vue.use(Row);
 Vue.use(Col);
 Vue.use(Menu);
