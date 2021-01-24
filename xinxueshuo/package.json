@@ -30,6 +30,8 @@
   },
   "dependencies": {
     "lodash": "^4.17.20",
-    "vue": "^2.6.12"
+    "swiper": "^5.3.6",
+    "vue": "^2.6.12",
+    "vue-awesome-swiper": "^4.1.1"
   }
 }

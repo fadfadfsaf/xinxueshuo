@@ -3,7 +3,7 @@
 
 <head>
   <title>起步</title>
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/news.css">
 </head>
 <style>
 
@@ -11,7 +11,35 @@
 
 <body>
   <div id="ex">
+    <Headers></Headers>
+    <Navs></Navs>
+    <div id="news">
+      <el-row>
+        <el-col :span="2">
+          新
+          闻
+          头
+          条</el-col>
+        <el-col :span="12" class="news_banner">
+          <el-carousel height="400px">
+            <el-carousel-item v-for="item in 4" :key="item" class="news_imgs">
+              <img src="img/1611029443429.jpg" alt="">
+              <img src="img/1611029443429.jpg" alt="">
+              <img src="img/1611029443429.jpg" alt="">
+              <img src="img/1611029443429.jpg" alt="">
+            </el-carousel-item>
+          </el-carousel>
+        </el-col>
+        <el-col :span="8" :offset="1">
+          <h1>学区房一年内两度遭遇“疯抢”，双轨制或许会拖垮国际学校现有优势？</h1>
+          <p>国际学校应找准定位，避免盲目跟风。</p>
+          <a href="">阅读全文</a>
+        </el-col>
+      </el-row>
+    </div>
+    <Footers></Footers>
   </div>
+  <script src="./js/public.bundle.js"></script>
   <script src="./js/news.bundle.js"></script>
 </body>
 

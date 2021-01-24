@@ -3,14 +3,13 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
 module.exports = {
   mode: 'production',
   entry: {
-    app: './src/index.js',
-    about:'./src/about.js',
-    // news:'./src/news.js',
-    // event:'./src/event.js',
-    // miniMba:'./src/miniMba.js',
-    consultOne:'./src/consultOne.js',
-    // vip:'./src/vip.js',
-    // onlineClass:'./src/onlineClass.js',
+    public:'./src/public.js',
+    index: './src/index.js',
+    news:'./src/news.js',
+    event:'./src/event.js',
+    miniMba:'./src/miniMba.js',
+    vip:'./src/vip.js',
+    onlineClass:'./src/onlineClass.js',
   },
   output: {
     filename: 'js/[name].bundle.js',
@@ -18,7 +17,7 @@ module.exports = {
   },
   devServer: {
     contentBase: './dist',//设置Http服务器的文件根目录
-    openPage: "./about.html",
+    openPage: "./index.html",
     port: 8080, //端口
     inline: true,
     open: true, //是否打开浏览器
